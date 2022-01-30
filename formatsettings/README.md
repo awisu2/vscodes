@@ -1,6 +1,6 @@
 # settings
 
-- ".vscode/settings.json": プロジェクト固有の設定が反映
+- *.vscode/settings.json*: プロジェクト固有の設定が反映
 
 ## 基本
 
