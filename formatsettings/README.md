@@ -2,6 +2,11 @@
 
 - *.vscode/settings.json*: プロジェクト固有の設定が反映
 
+```bash
+mkdir .vscode
+echo "{}" > .vscode/settings.json
+```
+
 ## 基本
 
 まずはこれを記載、その上で必要な言語用設定を追加
