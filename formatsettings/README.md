@@ -14,14 +14,9 @@ editor.formatOnSave 以外は、user の settings に書いてもいいかも
 
 ```json
 {
-  "editor.tabSize": 2,
+  // "editor.tabSize": 2,
   // 改行コード
   "files.eol": "\n",
-  // コマンドプロンプト
-  "[bat]": {
-    "files.encoding": "shiftjis",
-    "files.eol": "\r\n"
-  },
   // prettierである必要はない。これを指定しないとformatOnSaveがうまく動作しないっぽい
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true
@@ -126,5 +121,17 @@ _.vscode/extensions.json_
   "[shellscript]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
   }
+}
+```
+
+## command prompt
+
+```json
+{
+  // コマンドプロンプト
+  "[bat]": {
+    "files.encoding": "shiftjis",
+    "files.eol": "\r\n"
+  },
 }
 ```
