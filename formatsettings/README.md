@@ -5,6 +5,19 @@
 ```bash
 mkdir .vscode
 echo "{}" > .vscode/settings.json
+
+# with basic
+mkdir .vscode
+cat - << EOC > .vscode/settings.json
+{
+  // "editor.tabSize": 2,
+  // 改行コード
+  "files.eol": "\n",
+  // prettierである必要はない。これを指定しないとformatOnSaveがうまく動作しないっぽい
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
+}
+EOC
 ```
 
 ## 基本
