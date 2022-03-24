@@ -8,6 +8,12 @@
 - terminalが利用できないため、今の所テキスト編集向け
   - とはいえブックマーク開くだけなのは非常に楽
   - 後述するようにコミットがすぐpushされるのでメモ先としては非常に楽
+- shortcut (ctrl + k の次のキーは ctrlは離す)
+  - Close: ctrl + F4
+  - Close all: ctrl + k, w
+  - Close saved: ctrl + k, u
+  - Open Explorer: ctrl + shift + e
+  - Open Source Control: ctrl + shift + g
 
 ## What can or cannot be done
 
